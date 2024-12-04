@@ -28,7 +28,7 @@ export default function WaitlistPage() {
       } else {
         setSubmitStatus("error")
       }
-    } catch (_error) {
+    } catch {
       setSubmitStatus("error")
     } finally {
       setIsSubmitting(false)
