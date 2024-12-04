@@ -1,0 +1,21 @@
+{
+    "headerText": "Coming Soon",
+    "heroText": "Join the Future of Landing Pages",
+    "bodyText": "A modern, customizable waitlist template built with Next.js and Tailwind CSS. Perfect for product launches, early access signups, and beta testing programs.",
+    "ctaText": {
+      "nameLabel": "Enter your name",
+      "emailLabel": "Enter your email",
+      "buttonText": "Get Early Access"
+    },
+    "footerText": "© 2024 Waitlist Template - Built with Next.js & Tailwind CSS",
+    "config": {
+      "webhookUrl": "",
+      "metadata": {
+        "title": "Waitlist Template",
+        "description": "A modern waitlist landing page template",
+        "favicon": "🚀"
+      }
+    }
+}
+  
+  
