@@ -2,6 +2,25 @@
 
 A modern, responsive waitlist landing page template that helps you collect and manage email signups. Built with Next.js and Tailwind CSS, it seamlessly integrates with Zapier to automatically save submissions to Google Sheets - perfect for product launches, beta signups, or newsletter subscriptions.
 
+## Demo
+
+![waitlist template demo](demo.png)
+
+---
+
+## Live Demo
+
+🚀 **[Try Waitlist Template](https://waitlist-template.vercel.app/)**
+
+---
+
+## Quick Deployment on Vercel
+Deploying **Waitlist Template** is simple and fast with Vercel's one-click deployment option. Vercel provides a powerful and scalable environment for your project.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/justmalhar/waitlist-template)
+
+
+
 ### Why Use This Template?
 - 📥 Collect emails and names without any backend setup
 - 📊 Automatically save submissions to Google Sheets via Zapier
