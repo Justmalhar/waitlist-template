@@ -13,7 +13,8 @@
       "metadata": {
         "title": "Waitlist Template",
         "description": "A modern waitlist landing page template",
-        "favicon": "🚀"
+        "favicon": "🚀",
+        "ogImage": "/og-image.jpg"
       }
     }
 }

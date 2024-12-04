@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-og": "tsx scripts/generate-og.ts"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
@@ -27,7 +28,9 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
     "typescript": "^5"
   }
 }

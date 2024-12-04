@@ -18,6 +18,25 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: copyContent.config.metadata.title,
   description: copyContent.config.metadata.description,
+  openGraph: {
+    title: copyContent.config.metadata.title,
+    description: copyContent.config.metadata.description,
+    images: [
+      {
+        url: copyContent.config.metadata.ogImage,
+        width: 1200,
+        height: 630,
+        alt: copyContent.config.metadata.title
+      }
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: copyContent.config.metadata.title,
+    description: copyContent.config.metadata.description,
+    images: [copyContent.config.metadata.ogImage],
+  },
   icons: {
     icon: [
       {

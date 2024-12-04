@@ -66,7 +66,8 @@ All text content is managed through `data/copy.json`. Update this file to custom
     "metadata": {
       "title": "Your Site Title",
       "description": "Your Site Description",
-      "favicon": "🚀"
+      "favicon": "🚀",
+      "ogImage": "/og-image.jpg"
     }
   }
 }
@@ -88,6 +89,7 @@ All text content is managed through `data/copy.json`. Update this file to custom
     - `title`: Browser tab title
     - `description`: Meta description for SEO
     - `favicon`: Emoji used as favicon
+    - `ogImage`: Path to Open Graph image (1200x630px)
 
 ## Webhook Configuration
 
@@ -138,6 +140,21 @@ Your spreadsheet will automatically populate with new submissions like this:
 ## Background Image
 
 Place your background image in the `public` folder as `background.avif` or update the path in `app/page.tsx`.
+
+## Open Graph Image
+
+The template automatically generates an OG image using your background and content:
+
+```bash
+npm run generate-og
+```
+
+This will create an `og-image.jpg` in the public folder that:
+- Uses your background image
+- Overlays your hero text and body text
+- Optimizes for social media sharing (1200x630px)
+
+Remember to regenerate the OG image whenever you update your copy or background.
 
 ## Styling
 
