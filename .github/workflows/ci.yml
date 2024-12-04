@@ -35,7 +35,7 @@ jobs:
       run: npm run generate-og
       
     - name: Build
-      run: next build
+      run: npx next build
       
     - name: Upload OG Image
       uses: actions/upload-artifact@v4
